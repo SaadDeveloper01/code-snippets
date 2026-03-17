@@ -5,14 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        #control1 {
+            background-color: beige;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 110px;
+        }
+
+        #logo-navbar {
+            padding: 12px;
+        }
+
+        #h-img {
+            height: 118px;
+        }
+
+
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            margin-right: 20px;
+        }
+
+        li a {
+            text-decoration: none;
+            font-size: 24px;
+            transition: all 0.3s ease-in-out;
+
+            color: black;
+        }
+
+        li a:hover {
+            color: brown;
+            font-weight: bolder;
+        }
+        .icons img{
+            height: 33px;
+            margin: 12px;
+        }
+    </style>
 </head>
 
 <body>
 
     <header id="control1">
 
-        <div class="image-navbar">
-            im
+        <div class="logo-navbar">
+            <img src="DATA/logos/nav-LOGO/Logo-removebg-preview.png" alt="website-logo" id="h-img">
+        </div>
+        <div class="links-navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div class="icons">
+             <img src="DATA/icons/global-search.png" alt="" >
+            <img src="DATA/icons/profile.png" alt="" >
+               <img src="DATA/icons/shopping-bag.png" alt="" >
+              
         </div>
 
     </header>
