@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>link working</title>
-     <style>
+    <style>
         * {
             margin: 0%;
             padding: 0%;
         }
-
+        html{
+            scroll-behavior: smooth;
+        }
         #control1 {
             background-color: beige;
             color: white;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
             height: 110px;
         }
 
@@ -49,64 +55,71 @@
             color: brown;
             font-weight: bolder;
         }
-        .icons img{
+
+        .icons img {
             height: 33px;
             margin: 12px;
         }
-        #control2{
+
+        #control2 {
             justify-content: center;
             align-items: center;
         }
 
-        #Home{
-          height: 1100px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+        #Home {
+            height: 1100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: blueviolet;
             width: 100%;
             font-size: 170px;
         }
-          #About{
-          height: 1100px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+
+        #About {
+            height: 1100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: rgb(172, 162, 119);
             width: 100%;
             font-size: 170px;
         }
-              #Men{
-          height: 1100px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+
+        #Men {
+            height: 1100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: rgb(132, 173, 154);
             width: 100%;
             font-size: 170px;
         }
-              #Women{
-          height: 1100px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+
+        #Women {
+            height: 1100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: rgb(144, 119, 172);
             width: 100%;
             font-size: 170px;
         }
-              #Contact{
-          height: 1100px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+
+        #Contact {
+            height: 1100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: rgb(175, 124, 144);
             width: 100%;
             font-size: 170px;
         }
     </style>
 </head>
+
 <body>
-     <header id="control1">
+    <header id="control1">
 
         <div class="logo-navbar">
             <img src="DATA/logos/nav-LOGO/Logo-removebg-preview.png" alt="website-logo" id="h-img">
@@ -121,17 +134,17 @@
             </ul>
         </div>
         <div class="icons">
-             <img src="DATA/icons/global-search.png" alt="" >
-            <img src="DATA/icons/profile.png" alt="" >
-               <img src="DATA/icons/shopping-bag.png" alt="" >
-              
+            <img src="DATA/icons/global-search.png" alt="">
+            <img src="DATA/icons/profile.png" alt="">
+            <img src="DATA/icons/shopping-bag.png" alt="">
+
         </div>
 
     </header>
-    
+
     <section id="control2">
         <div id="Home">
-           HOME
+            HOME
         </div>
 
         <div id="About">
@@ -139,7 +152,7 @@
         </div>
 
         <div id="Men">
-          MEN
+            MEN
         </div>
 
         <div id="Women">
@@ -147,10 +160,11 @@
         </div>
 
         <div id="Contact">
-         CONTACT US
+            CONTACT US
         </div>
 
     </section>
-    
+
 </body>
+
 </html>
