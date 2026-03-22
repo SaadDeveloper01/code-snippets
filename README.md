@@ -12,7 +12,7 @@ I created this space to document my progress, store my practice codes, and track
 - 🌐 Exploring the GitHub workflow.
 
 ### 🛠️ Tech Stack (Learning)
-* **Languages:** HTML5, CSS3
+* **Languages:** HTML5, CSS3 ,JS
 * **Tools:** VS Code, Git
 
 ---
